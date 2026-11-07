@@ -1,0 +1,11 @@
+{
+  "description": "Speaks each reply with edge-tts; a new prompt silences the previous one",
+  "hooks": {
+    "Stop": [
+      { "hooks": [ { "type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/bin/claude-speak\" hook" } ] }
+    ],
+    "UserPromptSubmit": [
+      { "hooks": [ { "type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/bin/claude-speak\" stop" } ] }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "journal",
+  "version": "1.0.0",
+  "description": "Logs every prompt and reply to a daily raw log, flags days with no journal entry, and writes the entry with /journal. /interview builds a profile so Claude knows who it works for.",
+  "author": { "name": "5Bills", "url": "https://github.com/5Bills" }, "license": "MIT",
+  "keywords": ["journal", "hooks", "personal"]
+}

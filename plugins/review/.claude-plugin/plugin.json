@@ -1,0 +1,7 @@
+{
+  "name": "review",
+  "version": "1.0.0",
+  "description": "Reviewers that report and never rewrite: audit (does the logic hold), critic (how the prose reads), reader (what an outsider can't follow) and haeden (a deep audit against the HAEDENISM method).",
+  "author": { "name": "5Bills", "url": "https://github.com/5Bills" }, "license": "MIT",
+  "keywords": ["review", "writing", "reasoning", "agents"]
+}

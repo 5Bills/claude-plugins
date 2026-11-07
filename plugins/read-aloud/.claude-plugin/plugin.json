@@ -1,0 +1,7 @@
+{
+  "name": "read-aloud",
+  "version": "1.0.0",
+  "description": "Reads each reply aloud with Microsoft Edge neural voices (edge-tts), skipping code, tables and URLs. A new prompt silences the old reply; /read-aloud toggles it.",
+  "author": { "name": "5Bills", "url": "https://github.com/5Bills" }, "license": "MIT",
+  "keywords": ["tts", "accessibility", "hooks"]
+}

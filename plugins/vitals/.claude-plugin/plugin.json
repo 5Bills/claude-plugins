@@ -1,0 +1,16 @@
+{
+  "name": "vitals",
+  "version": "1.0.0",
+  "description": "A band above the prompt with context fill, the 5-hour usage limit and its reset countdown, and session cost, coloured from the active Claude Code theme.",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "5Bills",
+    "url": "https://github.com/5Bills"
+  },
+  "license": "MIT",
+  "keywords": [
+    "status",
+    "usage",
+    "mod"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "5bills",
+  "description": "Agents and hooks for careful research and writing in Obsidian, plus a few quality-of-life plugins.",
+  "owner": {
+    "name": "5Bills",
+    "url": "https://github.com/5Bills"
+  },
+  "plugins": [
+    {
+      "name": "review",
+      "source": "./plugins/review",
+      "description": "Reviewers that report and never rewrite: audit (does the logic hold), critic (how the prose reads), reader (what an outsider can't follow) and haeden (a deep audit against the HAEDENISM method).",
+      "version": "1.0.0"
+    },
+    {
+      "name": "vault",
+      "source": "./plugins/vault",
+      "description": "Keeps an Obsidian research vault honest: research with sources, scribe for notes, librarian for structure, docs for clean exports, and a hook that makes source folders read-only.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "simulated-actors",
+      "source": "./plugins/simulated-actors",
+      "description": "Pre-mortem a plan by simulating the people who must say yes (investors, customers, regulators, hires) from researched profiles: /panel for predictions, /actor for live rehearsal.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "journal",
+      "source": "./plugins/journal",
+      "description": "Logs every prompt and reply to a daily raw log, flags days with no journal entry, and writes the entry with /journal. /interview builds a profile so Claude knows who it works for.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "read-aloud",
+      "source": "./plugins/read-aloud",
+      "description": "Reads each reply aloud with Microsoft Edge neural voices (edge-tts), skipping code, tables and URLs. A new prompt silences the old reply; /read-aloud toggles it.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "vitals",
+      "source": "./plugins/vitals",
+      "description": "A band above the prompt with context fill, the 5-hour usage limit and its reset countdown, and session cost, coloured from the active Claude Code theme.",
+      "version": "1.0.0"
+    }
+  ]
+}

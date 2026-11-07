@@ -1,0 +1,13 @@
+{
+  "description": "Blocks edits inside the folders listed in .claude/protected-paths",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit|NotebookEdit",
+        "hooks": [
+          { "type": "command", "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/protect-sources.sh\"" }
+        ]
+      }
+    ]
+  }
+}

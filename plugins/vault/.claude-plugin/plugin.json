@@ -1,0 +1,7 @@
+{
+  "name": "vault",
+  "version": "1.0.0",
+  "description": "Keeps an Obsidian research vault honest: research with sources, scribe for notes, librarian for structure, docs for clean exports, and a hook that makes source folders read-only.",
+  "author": { "name": "5Bills", "url": "https://github.com/5Bills" }, "license": "MIT",
+  "keywords": ["obsidian", "notes", "research", "agents"]
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Logs every prompt and reply to the day's raw journal log, and flags days with no journal entry",
+  "hooks": {
+    "SessionStart": [
+      { "hooks": [ { "type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/journal-log.py\" start" } ] }
+    ],
+    "UserPromptSubmit": [
+      { "hooks": [ { "type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/journal-log.py\" prompt" } ] }
+    ],
+    "Stop": [
+      { "hooks": [ { "type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/journal-log.py\" reply" } ] }
+    ]
+  }
+}

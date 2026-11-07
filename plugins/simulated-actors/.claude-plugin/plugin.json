@@ -1,0 +1,7 @@
+{
+  "name": "simulated-actors",
+  "version": "1.0.0",
+  "description": "Pre-mortem a plan by simulating the people who must say yes (investors, customers, regulators, hires) from researched profiles: /panel for predictions, /actor for live rehearsal.",
+  "author": { "name": "5Bills", "url": "https://github.com/5Bills" }, "license": "MIT",
+  "keywords": ["pitch", "pre-mortem", "simulation", "agents"]
+}
